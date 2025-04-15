@@ -112,3 +112,27 @@ main .flex img {
       line-height: 1.5;
   }
 }
+/* Background slider container */
+.slider-track {
+  animation: slideImages 30s linear infinite;
+}
+
+.slider-track img {
+  height: 100%;
+  width: auto;
+  margin-right: 20px;
+  flex-shrink: 0;
+  opacity: 0.2;
+  filter: grayscale(100%);
+}
+
+/* Slider animation */
+@keyframes slideImages {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
