@@ -112,6 +112,7 @@ main .flex img {
       line-height: 1.5;
   }
 }
+
 /* Background slider container */
 .slider-track {
   animation: slideImages 30s linear infinite;
