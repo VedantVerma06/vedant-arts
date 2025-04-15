@@ -41,6 +41,28 @@
   <footer class="text-center text-sm text-[#8B9490] mt-auto py-6">
     &copy; 2025 Vedant's Arts Skills
   </footer>
+
+  <script>
+    const slider = document.getElementById('image-slider');
+    const images = [
+      'art1.jpg',
+      'art2.jpg',
+      'art3.jpg',
+      'art4.jpg',
+      'art5.jpg',
+      'art6.jpg'
+    ];
+  
+    // Create two copies for seamless loop
+    for (let i = 0; i < 2; i++) {
+      images.forEach(src => {
+        const img = document.createElement('img');
+        img.src = src;
+        img.classList.add('h-full');
+        slider.appendChild(img);
+      });
+    }
+  </script>
 </body>
 </html>
 
