@@ -58,7 +58,7 @@ const artworks = [
   { img: "art57.jpg", caption: "'The Hedgehog<br>Sonic'", instagram: "https://www.instagram.com/p/C_phnfATiO3/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art58.jpg", caption: "'The Hedgehog<br>Shadow'", instagram: "https://www.instagram.com/p/DBqL1NZyPrJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art59.jpg", caption: "'The Protector of The Master Emerald-<br>Knuckles", instagram: "https://www.instagram.com/p/DFQsJJ0Ti82/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
-  { img: "art60.jpg", caption: "'Dwayne 'The Rock' Johnson as<br>Black Adam", instagram: "https://www.instagram.com/p/DEHhmjKS5ko/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
+  { img: "art60.jpg", caption: "'Dwayne 'The Rock' Johnson as<br>Black Adam'", instagram: "https://www.instagram.com/p/DEHhmjKS5ko/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art61.jpg", caption: "'Detective Pikachu'", instagram: "https://www.instagram.com/p/DB5rS1eyJAK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art62.jpg", caption: "'The Upper Moon 2<br>Doma'", instagram: "https://www.instagram.com/p/DD6svu7SYAc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art63.jpg", caption: "'Capturing the rhythm of movement in stillness'", instagram: "https://www.instagram.com/p/DD2NJRpSJJT/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
