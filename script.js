@@ -66,6 +66,8 @@ const artworks = [
   { img: "art65.jpg", caption: "'The Attack Titan'", instagram: "https://www.instagram.com/p/DBs_4fpSile/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art66.jpg", caption: "'Ken Takakura -<br>Okkarun'", instagram: "https://instagram.com/vedantartshttps://www.instagram.com/p/DBn86d2SOdi/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "68.jpg", caption: "'Toya Todoroki -<br>DABI🔥'", instagram: "https://www.instagram.com/p/DCmaLTCyAn4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
+  { img: "art67.jpg", caption: "'The Subsitute Shinigami<br> Kurosaki Ichigo'", instagram: "https://www.instagram.com/p/DJYxc1tT9zL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA===" },
+
 ];
 
 const galleryGrid = document.getElementById('galleryGrid');
