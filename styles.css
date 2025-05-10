@@ -1,21 +1,21 @@
 /* General Body Styles */
 body {
-  background-color: #2A2F33;
-  color: #BBB7A4;
+  background-color: #121212; /* Darker background for better contrast */
+  color: #E0E0E0; /* Lighter text for readability */
   font-family: 'Raleway', sans-serif;
 }
 
 /* Glowing Text Effect for Titles */
 .glow-text {
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 
-               0 0 20px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+               0 0 20px rgba(255, 255, 255, 0.6);
 }
 
 /* Fade Border Effect for Circular Images (e.g., Profile Pictures) */
 .fade-border {
-  border-radius: 9999px; /* Makes the image circular */
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1),
-              0 0 40px rgba(139, 148, 144, 0.3);
+  border-radius: 9999px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15),
+              0 0 40px rgba(200, 200, 200, 0.3);
 }
 
 /* Image Hover Effects (Zoom and Smooth Transition) */
@@ -24,96 +24,97 @@ img {
 }
 
 img:hover {
-  transform: scale(1.03); /* Slight zoom effect on hover */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 /* Gallery Grid Styles */
 #galleryGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
-  gap: 1rem; /* Gap between items */
-  padding: 1rem; /* Padding inside grid */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
 }
 
 /* Gallery Image Styling */
 #galleryGrid img {
-  object-fit: contain; /* Ensures images maintain aspect ratio */
-  transition: transform 0.3s ease; /* Smooth scale transition */
+  object-fit: contain;
+  background-color: #1E1E1E; /* Subtle background */
+  border-radius: 8px;
 }
 
 /* Hover Effect on Gallery Images */
 #galleryGrid img:hover {
-  transform: scale(1.05); /* Slight zoom effect for gallery images on hover */
+  transform: scale(1.05);
 }
 
-/* Card Hover Effects (for clickable sections like About, Gallery, Contact) */
+/* Card Hover Effects */
 .cursor-pointer {
   transition: transform 0.3s ease, background-color 0.3s ease;
+  background-color: #1E1E1E;
+  border: 1px solid #3A3A3A;
+  border-radius: 8px;
 }
 
 .cursor-pointer:hover {
-  transform: scale(1.05); /* Slight zoom effect for clickable items */
-  background-color: rgba(139, 148, 144, 0.1); /* Light background color on hover */
+  transform: scale(1.05);
+  background-color: #2C2C2C;
 }
 
-/* Header Styling for All Pages */
+/* Header Styling */
 header {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem 0;
   text-align: center;
 }
 
 /* Footer Styling */
 footer {
   font-size: 0.875rem;
-  color: #8B9490;
-  margin-top: 4rem; /* Spacing between content and footer */
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  color: #AAAAAA;
+  margin-top: 4rem;
+  padding: 1.5rem 0;
   text-align: center;
 }
 
-/* About Me Section: Flexbox Layout */
+/* About Me Section */
 main .flex {
   gap: 2rem;
 }
 
 main .flex img {
-  border-radius: 9999px; /* Circular image for the about me section */
+  border-radius: 9999px;
+  background-color: #2C2C2C;
 }
 
-/* Responsive Media Queries */
+/* Responsive Adjustments */
 @media (max-width: 768px) {
   #galleryGrid {
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Smaller grid items for mobile */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
 
-  /* About Section: Stack image and text on smaller screens */
   .flex {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
 @media (max-width: 500px) {
   header h1 {
-      font-size: 4rem; /* Smaller header font for small screens */
+    font-size: 2.5rem;
   }
 
   main .flex img {
-      width: 100px; /* Smaller image for mobile */
-      height: 100px;
+    width: 100px;
+    height: 100px;
   }
 
-  /* About Me Text Adjustments */
   main .flex p {
-      font-size: 1rem;
-      line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.5;
   }
 }
 
-/* Background slider container */
+/* Background Slider */
 .slider-track {
   animation: slideImages 30s linear infinite;
 }
@@ -123,11 +124,10 @@ main .flex img {
   width: auto;
   margin-right: 20px;
   flex-shrink: 0;
-  opacity: 0.2;
+  opacity: 0.15;
   filter: grayscale(100%);
 }
 
-/* Slider animation */
 @keyframes slideImages {
   0% {
     transform: translateX(0);
