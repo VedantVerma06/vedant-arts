@@ -107,3 +107,9 @@ artworks.forEach(art => {
   
   galleryGrid.appendChild(item);
 });
+ 
+// ✅ Add message after all artworks
+const messageDiv = document.createElement('div');
+messageDiv.className = "bg-[#2A2F33] text-[#BBB7A4] border border-dashed border-[#8A8B94] p-6 rounded text-center text-lg italic";
+messageDiv.innerText = "New artwork coming soon...";
+galleryGrid.appendChild(messageDiv);
