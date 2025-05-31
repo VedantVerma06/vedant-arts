@@ -68,6 +68,7 @@ const artworks = [
   { img: "68.jpg", caption: "'Toya Todoroki -<br>DABI🔥'", instagram: "https://www.instagram.com/p/DCmaLTCyAn4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art67.jpg", caption: "'The Subsitute Shinigami<br> Kurosaki Ichigo'", instagram: "https://www.instagram.com/p/DJYxc1tT9zL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA===" },
   { img: "art68.jpg", caption: "'The Shadow Monarch<br> Sung Jinwoo'", instagram: "https://www.instagram.com/p/DJYxc1tT9zL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA===" },
+  { img: "art69.jpg", caption: "'~Cosmic~<br> Roronoa Zoro'", instagram: "https://www.instagram.com/p/DKSMrBGzAT6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
 ];
 
 const galleryGrid = document.getElementById('galleryGrid');
