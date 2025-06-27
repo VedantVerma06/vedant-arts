@@ -67,7 +67,7 @@ const artworks = [
   { img: "art66.jpg", caption: "'Ken Takakura -<br>Okkarun'", instagram: "https://instagram.com/vedantartshttps://www.instagram.com/p/DBn86d2SOdi/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "68.jpg", caption: "'Toya Todoroki -<br>DABI🔥'", instagram: "https://www.instagram.com/p/DCmaLTCyAn4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art67.jpg", caption: "'The Subsitute Shinigami<br> Kurosaki Ichigo'", instagram: "https://www.instagram.com/p/DJYxc1tT9zL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA===" },
-  { img: "art68.jpg", caption: "'The Shadow Monarch<br> Sung Jinwoo'", instagram: "https://www.instagram.com/p/DJYxc1tT9zL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA===" },
+  { img: "art68.jpg", caption: "'The Shadow Monarch<br> Sung Jinwoo'", instagram: "https://www.instagram.com/p/DJ9zpyWTcyB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art69.jpg", caption: "'~Cosmic~<br> Roronoa Zoro'", instagram: "https://www.instagram.com/p/DKSMrBGzAT6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art70.jpg", caption: "'Levi Ackerman ⚔️'", instagram: "https://www.instagram.com/p/DLPzc7qSqUC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
 
