@@ -70,6 +70,7 @@ const artworks = [
   { img: "art68.jpg", caption: "'The Shadow Monarch<br> Sung Jinwoo'", instagram: "https://www.instagram.com/p/DJ9zpyWTcyB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art69.jpg", caption: "'~Cosmic~<br> Roronoa Zoro'", instagram: "https://www.instagram.com/p/DKSMrBGzAT6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art70.jpg", caption: "'Levi Ackerman ⚔️'", instagram: "https://www.instagram.com/p/DLPzc7qSqUC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
+  { img: "art71.jpg", caption: "'The Shadow Monarch'", instagram: "https://www.instagram.com/p/DLjWXXMyzMo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
 
 ];
 
