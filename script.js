@@ -64,7 +64,7 @@ const artworks = [
   { img: "art63.jpg", caption: "'Capturing the rhythm of movement in stillness'", instagram: "https://www.instagram.com/p/DD2NJRpSJJT/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art64.jpg", caption: "'The statue of GOD'", instagram: "https://www.instagram.com/p/DDjOnlsSZQ1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art65.jpg", caption: "'The Attack Titan'", instagram: "https://www.instagram.com/p/DBs_4fpSile/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
-  { img: "art66.jpg", caption: "'Ken Takakura -<br>Okkarun'", instagram: "https://instagram.com/vedantartshttps://www.instagram.com/p/DBn86d2SOdi/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
+  { img: "art66.jpg", caption: "'Ken Takakura -<br>Okkarun'", instagram: "https://www.instagram.com/p/DBn86d2SOdi/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "68.jpg", caption: "'Toya Todoroki -<br>DABI🔥'", instagram: "https://www.instagram.com/p/DCmaLTCyAn4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art67.jpg", caption: "'The Subsitute Shinigami<br> Kurosaki Ichigo'", instagram: "https://www.instagram.com/p/DJYxc1tT9zL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA===" },
   { img: "art68.jpg", caption: "'The Shadow Monarch<br> Sung Jinwoo'", instagram: "https://www.instagram.com/p/DJ9zpyWTcyB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
@@ -120,6 +120,7 @@ const messageDiv = document.createElement('div');
 messageDiv.className = "bg-[#2A2F33] text-[#BBB7A4] border border-dashed border-[#8A8B94] p-6 rounded text-center text-lg italic";
 messageDiv.innerText = "New artwork coming soon...";
 galleryGrid.appendChild(messageDiv);
+
 
 
 
