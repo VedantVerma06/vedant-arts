@@ -71,7 +71,7 @@ const artworks = [
   { img: "art69.jpg", caption: "'~Cosmic~<br> Roronoa Zoro'", instagram: "https://www.instagram.com/p/DKSMrBGzAT6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art70.jpg", caption: "'Levi Ackerman ⚔️'", instagram: "https://www.instagram.com/p/DLPzc7qSqUC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art71.jpg", caption: "'The Shadow Monarch'", instagram: "https://www.instagram.com/p/DLjWXXMyzMo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
-  { img: "art72.jpg", caption: "'Hrithik Roshan As<br>Vedha'", instagram: "https://www.instagram.com/p/DLjWXXMyzMo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
+  { img: "art72.jpg", caption: "'Hrithik Roshan As<br>Vedha'", instagram: "https://www.instagram.com/p/DL91sK3SOqY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art73.jpg", caption: "'Fushiguro Toji🔪'", instagram: "https://www.instagram.com/p/DLjWXXMyzMo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art74.jpg", caption: "'STITCH<br>From Disney's Lilo & Stitch'", instagram: "https://www.instagram.com/p/DN8sWeJksXJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
 
@@ -120,6 +120,7 @@ const messageDiv = document.createElement('div');
 messageDiv.className = "bg-[#2A2F33] text-[#BBB7A4] border border-dashed border-[#8A8B94] p-6 rounded text-center text-lg italic";
 messageDiv.innerText = "New artwork coming soon...";
 galleryGrid.appendChild(messageDiv);
+
 
 
 
