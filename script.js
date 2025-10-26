@@ -74,7 +74,8 @@ const artworks = [
   { img: "art72.jpg", caption: "'Hrithik Roshan As<br>Vedha'", instagram: "https://www.instagram.com/p/DL91sK3SOqY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art73.jpg", caption: "'Fushiguro Toji🔪'", instagram: "https://www.instagram.com/p/DL0Q-S6T3w1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
   { img: "art74.jpg", caption: "'STITCH<br>From Disney's Lilo & Stitch'", instagram: "https://www.instagram.com/p/DN8sWeJksXJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
-
+  { img: "art75.jpg", caption: "'AKAZA🤛👊🤜<br>From<br>Demon Slayer'", instagram: "https://www.instagram.com/p/DQL1Y-ekhiy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
+  
 ];
 
 const galleryGrid = document.getElementById('galleryGrid');
@@ -120,6 +121,7 @@ const messageDiv = document.createElement('div');
 messageDiv.className = "bg-[#2A2F33] text-[#BBB7A4] border border-dashed border-[#8A8B94] p-6 rounded text-center text-lg italic";
 messageDiv.innerText = "New artwork coming soon...";
 galleryGrid.appendChild(messageDiv);
+
 
 
 
